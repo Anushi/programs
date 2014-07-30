@@ -1,1 +1,4 @@
 R is an interpreted language, so any code you write to perform a loop is likely to run much more slowly than equivalent code in compiled language like C. (Most of R’s built-in functions are compiled and are therefore very fast.)
+
+Program for airline consumer sentiment :
+http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment
