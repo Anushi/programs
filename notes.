@@ -8,3 +8,10 @@ https://sites.google.com/site/miningtwitter/questions/frequencies
 
 Program for airline consumer sentiment :
 http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment
+
+* TCP for file transfer :
+- The throughput has a hard theoretical limit that depends only on the network round-trip time (RTT) and the packet loss.
+- If the slowest link between two communicating hosts is limited to x kilobits/second then you are not going to get more than x kilobits per second of information throughput. 
+
+* UDP
+- Used for streaminh.
