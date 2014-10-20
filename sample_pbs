@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -W group_list=eu9
+#PBS -l select=1:ncpus=2:mem=5GB
+#PBS -M jon.aaa@yyy.edu.au
+#PBS -m bae
+
+
+echo "Hello world!"
+
+./myprogram.sh $input_dir
+
+wait
+
+exit
