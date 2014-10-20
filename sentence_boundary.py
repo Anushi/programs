@@ -19,7 +19,7 @@ def splitParagraphIntoSentences(paragraph):
     return sentenceList
 
 if __name__ == '__main__':
-    f = open("bs.txt", 'r')
+    f = open("sample.txt", 'r')
     text = f.read()
     mylist = []
     sentences = splitParagraphIntoSentences(text)
