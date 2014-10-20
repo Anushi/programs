@@ -1,0 +1,17 @@
+R is an interpreted language, so any code you write to perform a loop is likely to run much more slowly than equivalent code in compiled language like C. (Most of R’s built-in functions are compiled and are therefore very fast.)
+
+http://www.johnverostek.com/wp-content/uploads/2014/02/Zhao_R_and_Data_Mining_CH10_Text_Mining.pdf
+
+http://www.r-bloggers.com/r-text-mining-on-twitter-prayformh370-malaysia-airlines/
+
+https://sites.google.com/site/miningtwitter/questions/frequencies
+
+Program for airline consumer sentiment :
+http://www.inside-r.org/howto/mining-twitter-airline-consumer-sentiment
+
+* TCP for file transfer :
+- The throughput has a hard theoretical limit that depends only on the network round-trip time (RTT) and the packet loss.
+- If the slowest link between two communicating hosts is limited to x kilobits/second then you are not going to get more than x kilobits per second of information throughput. 
+
+* UDP
+- Used for streaminh.
